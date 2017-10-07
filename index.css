@@ -1,0 +1,90 @@
+html {
+    background: mistyrose;
+}
+
+body {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#current-test {
+    margin: 0 5vw;
+}
+
+.door {
+    height: 40vh;
+    width: 20vw;
+    border: 5px solid black;
+    margin: 0 5vw;
+    float: left;
+    line-height: 40vh;
+    font-size: 30px;
+}
+
+.door:nth-child(1) {
+    background: tomato;
+}
+
+.door:nth-child(2) {
+    background: steelblue;
+}
+
+.door:nth-child(3) {
+    background: green;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.active {
+    border-color: gold;
+}
+
+.active {
+    background: gold !important;
+}
+
+.active span {
+    display: none;
+}
+
+.active:after {
+    content: "Active"
+}
+
+.empty {
+    background: black !important;
+    color: white;
+}
+
+.empty span {
+    display: none;
+}
+
+.empty:after {
+    content: "Empty"
+}
+
+.switch {
+    background: red !important;
+    border-color: red;
+}
+
+.switch span {
+    display: none;
+}
+
+.switch:after {
+    content: "Switch"
+}
+
+.winner {
+    background: blue !important;
+}
+
+.winner:after {
+    content: "Winner"
+}
